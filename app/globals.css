@@ -1,0 +1,24 @@
+/* Frankenstudio – dark lab theme */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0d0f0e;
+  --surface: #161a18;
+  --bolt-green: #39ff14;
+  --text: #e8ead8;
+  --muted: #6b7264;
+  --danger: #ff4c4c;
+  --font-sans: system-ui, -apple-system, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}

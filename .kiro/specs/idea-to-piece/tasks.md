@@ -1,5 +1,5 @@
 # Tasks
-- [ ] 1 Scaffold Next.js + worker, MIT license, `.kiro/` committed (R1)
+- [x] 1 Scaffold Next.js + worker, MIT license, `.kiro/` committed (R1)
 - [ ] 2 zod schemas + `llm()` adapter with token budget (R2, R7)
 - [ ] 3 research stage (Playwright fetch + summarize) (R2)
 - [ ] 4 plan + write stages (R2, R3)

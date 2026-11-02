@@ -1,6 +1,31 @@
+# ── Dependencies ─────────────────────────────────────────────────────────────
 node_modules/
+
+# ── Next.js ───────────────────────────────────────────────────────────────────
 .next/
-.env*
+out/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+# .env.example is intentionally NOT ignored — it documents required vars
+
+# ── Job outputs (runtime artefacts, never committed) ─────────────────────────
 jobs/
 *.mp4
-!docs/**/*.mp4
+*.png
+*.wav
+*.mp3
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Build / misc ──────────────────────────────────────────────────────────────
+dist/
+*.tsbuildinfo
