@@ -1,0 +1,11 @@
+# Tasks
+- [ ] 1 Scaffold Next.js + worker, MIT license, `.kiro/` committed (R1)
+- [ ] 2 zod schemas + `llm()` adapter with token budget (R2, R7)
+- [ ] 3 research stage (Playwright fetch + summarize) (R2)
+- [ ] 4 plan + write stages (R2, R3)
+- [ ] 5 SVG illustrate stage + fixed template (R3)
+- [ ] 6 critic loop (R4)
+- [ ] 7 render-image (HTML→PNG) (R5)
+- [ ] 8 render-video (ffmpeg, captions) (R5)
+- [ ] 9 operating-table UI with live stage events (R6)
+- [ ] 10 deploy, demo video ≤ 3 min, Devpost write-up, dev.to blog

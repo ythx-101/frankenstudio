@@ -1,0 +1,6 @@
+node_modules/
+.next/
+.env*
+jobs/
+*.mp4
+!docs/**/*.mp4

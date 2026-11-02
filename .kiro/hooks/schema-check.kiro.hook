@@ -1,0 +1,1 @@
+{"name":"Schema check on save","when":{"type":"fileEdited","patterns":["stages/**/*.ts","schemas/**/*.ts"]},"then":{"type":"askAgent","prompt":"Run the stage's schema tests and fix any failures before continuing."}}
